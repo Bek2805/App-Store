@@ -1,0 +1,391 @@
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+  .footer {
+    & svg {
+      width: 100%;
+    }
+  }
+  iframe {
+    width: 580px;
+    height: 400px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+  .section_title {
+    font-size: 40px;
+  }
+  .best {
+    &_title {
+      font-size: 40px;
+    }
+    &_sm-title {
+      font-size: 25px;
+    }
+    &_btn {
+      line-height: 10px;
+    }
+  }
+  .phone__text_btn {
+    margin-bottom: 40px;
+  }
+
+  .have {
+    &_img img {
+      width: 100%;
+    }
+    &_link {
+      font-size: 18px;
+    }
+    &_all::before, ::after {
+      right: 38%;
+    }
+  }
+  .card_first {
+    padding: 45px 10px;
+  }
+  .grid_col-2 {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  .sm_desc {
+    width: 95%;
+  }
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .menu_mobile {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+  }
+  .menu_btn.menu_active span:before {
+    width: 10px;
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+  }
+  .menu_btn.menu_active span:after {
+    width: 10px;
+    transform: rotate(45deg);
+    transform-origin: left top;
+  }
+  .menu_wrap {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .menu_wrap.menu_active {
+    visibility: visible;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #222;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    transition: all 0.5s linear;
+    z-index: 9;
+  }
+  .menu_wrap.menu_active .menu {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .menu_wrap.menu_active .menu li {
+    padding-top: 20px;
+  }
+  select{
+    background: none;
+    color: #FFFFFF;
+  }
+  .menu li a{
+    color: #FFFFFF;
+  }
+  .logo{
+    display: none;
+  }
+  .box{
+    display: none;
+  }
+  .phone__back{
+    padding-bottom: 30px;
+  }
+  .mobile_col-6{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .col-4{
+    width: 50%;
+  }
+  .item__info{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .phone__text_title{
+    padding: 0;
+  }
+  .second_first-card {
+   padding: 20px 23px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .shop {
+    &__text_title{
+      font-size: 34px;
+    }
+    &__img_macbook__mobile{
+      width: 100%;
+    }
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .second_first-card {
+    padding: 20px 23px;
+  }
+  .card_first {
+    padding: 45px 0;
+  }
+}
+@media (max-width: 960px) {
+  .grid_col-4 {
+    grid-template-columns: 1fr;
+  }
+  .have {
+    &_all::before, ::after {
+      right: 38%;
+    }
+  }
+  .grid_col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .news {
+    &_card1 {
+      text-align: center;
+    }
+    &_img {
+      text-align: center;
+      & img {
+        width: 50%;
+      }
+    }
+  }
+  .best {
+    & .grid {
+      width: 50%;
+    }
+    &_card {
+      margin-bottom: 20px;
+    }
+  }
+  .footer {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 768px) {
+  .istore_title {
+    font-size: 38px;
+  }
+  .phone {
+    padding-top: 0;
+  }
+  .have {
+    &_all::before, ::after {
+      right: 35%;
+    }
+  }
+  .rows {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  iframe {
+    width: 720px;
+  }
+  .col_6 {
+    width: 100%;
+  }
+  .card_one {
+    margin: 15px 0;
+  }
+  .grid_col-6 {
+    grid-template-columns: 1fr;
+  }
+  .grid_col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer_block {
+    margin-top: 25px;
+  }
+  .grid_col-2 {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+}
+@media (max-width: 461px) {
+  .owl-carousel .nav-button {
+    font-size: 72px;
+  }
+  .owl-next {
+    right: -1px;
+  }
+  .shop {
+    padding: 0;
+    &__text_title {
+      font-size: 30px;
+      line-height: 37px;
+    }
+    &__laptop_text {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    &__img__phone img {
+      width: 155px;
+    }
+  }
+  .section_title {
+    line-height: 40px;
+    font-size: 30px;
+  }
+  .phone {
+    padding-top: 0;
+    &__text_title {
+      font-size: 30px;
+      line-height: 37px;
+    }
+  }
+  .search_btn {
+    padding: 16px 9px;
+    &_inp {
+      padding: 0 13px;
+    }
+  }
+  .have {
+    &_all::before, ::after {
+      right: 23%;
+    }
+  }
+  .card_first {
+    padding: 45px 0;
+  }
+  .grid_col-2 {
+    grid-template-columns: 2fr;
+  }
+  .best .grid {
+    width: auto;
+  }
+  .search {
+    &_fab {
+      right: 64%;
+    }
+    &_media {
+      flex-direction: column;
+    }
+    &_links {
+      flex-direction: column;
+    }
+  }
+  .first_title {
+    font-size: 35px;
+  }
+  .watch_title {
+    font-size: 40px;
+  }
+  .card_first {
+    padding: 45px 10px;
+  }
+  .grid_col-6 {
+    grid-template-columns: 1fr;
+  }
+  .grid_col-3 {
+    grid-template-columns: 1fr;
+  }
+  .card_one {
+    margin: 10px 0;
+  }
+  .istore_title {
+    font-size: 36px;
+  }
+  .about_left-side {
+    text-align: center;
+    padding-left: 0;
+  }
+  .about_right-side {
+    flex-direction: column;
+  }
+  .second_first-card {
+    text-align: center;
+  }
+  iframe {
+    width: 408px;
+  }
+
+  }
+@media (max-width: 391px) {
+  .section_title {
+    line-height: 35px;
+    font-size: 27px;
+  }
+
+  .phone {
+    &__text_title {
+      font-size: 30px;
+      line-height: 37px;
+    }
+    &__text_btn {
+      width: 149px;
+      height: 33px;
+    }
+  }
+  .card_first {
+    padding: 45px 0;
+  }
+  .have {
+    &_all::before, ::after {
+      right: 20%;
+    }
+  }
+  .grid_col-2 {
+    grid-template-columns: 2fr;
+  }
+  .footer {
+    &_top {
+      text-align: center;
+    }
+    &_img {
+      text-align: center;
+    }
+  }
+  .istore_title {
+    font-size: 33px;
+  }
+  .about_left-side {
+    text-align: center;
+    padding-left: 0;
+  }
+  .about_right-side {
+    flex-direction: column;
+  }
+  .aboutus__contacts {
+    padding: 66px 0;
+    margin-top: 23px;
+  }
+  .col_6 {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+iframe {
+  width: 340px;
+}
+}
