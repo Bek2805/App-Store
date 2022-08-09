@@ -855,6 +855,9 @@ select{
 }
 .about {
   padding: 40px 0;
+  &_right-side {
+    grid-column-gap: 15px;
+  }
   &_left-side {
     padding-left: 30px;
   }
@@ -899,15 +902,11 @@ select{
   &_first {
     margin: 15px 0;
   }
-  &_second {
-    margin-left: 15px;
-  }
 }
 .col_6{
   width: 50%;
   padding: 0 15px;
 }
-
 .shop__text_title {
   font-family: 'Readex Pro', sans-serif;
   font-style: normal;

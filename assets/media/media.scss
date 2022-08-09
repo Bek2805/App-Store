@@ -134,6 +134,9 @@
   .second_first-card {
    padding: 20px 23px;
   }
+  .sm_title {
+    margin: 20px 0;
+  }
 }
 @media screen and (max-width: 991px) {
   .shop {
@@ -152,6 +155,9 @@
   }
   .card_first {
     padding: 45px 0;
+  }
+  .sm_title{
+    margin: 20px 0;
   }
 }
 @media (max-width: 960px) {
@@ -187,6 +193,9 @@
   }
   .footer {
     padding: 0 10px;
+  }
+  .sm_title {
+    margin: 20px 0;
   }
 }
 @media (max-width: 768px) {
@@ -333,7 +342,9 @@
     line-height: 35px;
     font-size: 27px;
   }
-
+  .sm_title {
+    margin: 20px 0;
+  }
   .phone {
     &__text_title {
       font-size: 30px;
@@ -385,6 +396,7 @@
     display: flex;
     flex-wrap: wrap;
   }
+
 iframe {
   width: 340px;
 }
